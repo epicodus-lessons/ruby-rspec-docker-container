@@ -26,7 +26,7 @@ You can exit IRB as normal by typing `exit`.
 
 ## Using This Repository for Docker
 
-This repository is a template repository. To use it, start by creating a new repository with `ruby-rspec-docker-container` as a template.
+This repository is a template repository. To use it, start by creating a new repository with `ruby-rspec-docker-container` as a template. Clone that repository down to your desktop.
 
 The repository contains a simple project that tests a simple `title_case` method. To run tests on the current code, simply run the command `docker-compose up` in the root directory of this project.
 
