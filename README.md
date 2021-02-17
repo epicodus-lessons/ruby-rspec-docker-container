@@ -49,6 +49,8 @@ With this alias, the `dspec` command will automatically run RSpec tests. You can
 
 Running scripts is optional at Epicodus. However, if you want to experiment with it, follow these steps:
 
-* The script **must** be located in `lib` and be called `script.rb`.
+* The script must be located in `lib` and be called `script.rb`.
 
-* To run the script, enter the following command in the root directory of the project: `script=script docker-compose up --build`. We recommend aliasing this command if you plan to run scripts a lot.
+* Run the following command: `docker-compose run --rm app ruby lib/script.rb`.
+
+Once again, we recommend aliasing this command if you plan to run scripts often. If you prefer to name your script something else, you just need to update the command to use the correct path and file name.
